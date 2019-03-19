@@ -1,0 +1,91 @@
+body {
+    position: relative;
+    background-color: #341038;
+    height: 100%;
+}
+
+.upper-header {
+    background-color: #eee;
+    background-position: center center;
+    background-image: url('image1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+
+.container a {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px 20px;
+    margin: 0;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.menu-left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menu-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container-x {
+    position: relative;
+    text-align: center;
+    color: black;
+    z-index: 1;
+}
+
+.centered {
+    position: relative;
+    top: -40px;
+    width: 400px;
+    margin: 0 auto;
+    display: block;
+}
+
+.centered-left {
+    position: relative;
+    width: 400px;
+    margin: 10px auto;
+    display: block;
+}
+
+.centered-right {
+    position: relative;
+    width: 400px;
+    margin: 10px auto;
+    display: block;
+}
+
+.container a {
+    color: #000;
+}
+
+.top h1 {
+    text-align: center;
+}
+
+a.menu-top {
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.menu-right a {
+    margin-left: 10px;
+}
+
+a.menu-top>i {
+    margin-right: 10px;
+}
+
+a.menu-top:hover {}
+
+.carousel.slide img {
+    width: 600px;
+    height: 410px;
+}
